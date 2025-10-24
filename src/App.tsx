@@ -4,6 +4,7 @@ import Header from "./components/Header.tsx";
 
 const Home = lazy(() => import("./pages/home"));
 const Login =lazy(()=>import("./pages/login"))
+const Register =lazy(()=>import("./pages/register"))
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         
       </Routes>
     </>

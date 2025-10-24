@@ -1,8 +1,11 @@
-import React from 'react'
+import { Link } from "react-router-dom"
+
 
 function Login() {
   return (
-    <div>Login</div>
+    <div className="px-16 py-5">
+      <Link to={"/register"}>Register pagega borish</Link>
+    </div>
   )
 }
 

@@ -1,7 +1,11 @@
+import Banner from "./Banner"
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className="px-10">
+      <Banner/>
+
+    </div>
   )
 }
 

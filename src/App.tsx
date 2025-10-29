@@ -8,7 +8,6 @@ const Home = lazy(() => import("./pages/home"));
 const Login = lazy(() => import("./pages/Login/Login.tsx"));
 const Register = lazy(() => import("./pages/Register/Register.tsx"));
 const Admin = lazy(() => import("./pages/admin/Admin.tsx"));
-
 function App() {
   return (
     <>
@@ -18,7 +17,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/status" element={<AuthStatus />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/Admin" element={<Admin />} />
       </Routes>
       <Footer />
     </>

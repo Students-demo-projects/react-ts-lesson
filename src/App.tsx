@@ -4,8 +4,8 @@ import Header from "./components/Header.tsx";
 import Footer from "./components/footer/Footer.tsx";
 
 const Home = lazy(() => import("./pages/home"));
-const Login = lazy(() => import("./pages/Login"));
-const Register = lazy(() => import("./pages/Register"));
+const Login = lazy(() => import("./pages/Login/Login.tsx"));
+const Register = lazy(() => import("./pages/Register/Register.tsx"));
 function App() {
   return (
     <>

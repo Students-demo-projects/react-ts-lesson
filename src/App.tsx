@@ -1,6 +1,8 @@
 import { lazy} from "react";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header.tsx";
+import Footer from "./components/footer/Footer.tsx";
+import AuthStatus from "./components/AuthStatus/AuthStatus.tsx";
 
 const Home = lazy(() => import("./pages/home"));
 const Login =lazy(()=>import("./pages/login"))
@@ -14,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path='/status' element={ <AuthStatus />} />
          <Route path="/Admin" element={<Admin />} />
         
       </Routes>

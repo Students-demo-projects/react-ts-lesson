@@ -1,9 +1,9 @@
-import Banner from "./Banner"
+import BannerQoshish from "../banner/BannerQoshish"
 
 function Home() {
   return (
     <div className="px-10">
-      <Banner/>
+      <BannerQoshish />
 
     </div>
   )

@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer.tsx";
 
 const Home = lazy(() => import("./pages/home"));
 const Login = lazy(() => import("./pages/login/Login.tsx"));
-const Register = lazy(() => import("./pages/Register/Register.tsx"));
+const Register = lazy(() => import("./pages/register/Register.tsx"));
 function App() {
   return (
     <>

@@ -26,6 +26,11 @@ function Header() {
       >
 Moshinalar 
       </h1>
+      <h1>Logo</h1>
+      <NavLink to={"/"}>Home</NavLink>
+      <NavLink to={"/login"}>Login</NavLink>
+      <NavLink to={"/status"}>Auth Status</NavLink>
+      <NavLink to={"/Admin"}>Admin</NavLink>
     </nav>
   );
 }

@@ -9,6 +9,7 @@ function Header() {
       <NavLink to={"/login"}>Login</NavLink>
       <NavLink to={"/status"}>Auth Status</NavLink>
       <NavLink to={"/Admin"}>Admin</NavLink>
+      <NavLink to={"/mahsulot"}>Mahsulot</NavLink>
     </nav>
   )
 }

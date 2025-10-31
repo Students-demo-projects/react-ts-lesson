@@ -4,6 +4,7 @@ import Header from "./components/Header.tsx";
 import Footer from "./components/footer/Footer.tsx";
 import AuthStatus from "./components/AuthStatus/AuthStatus.tsx";
 
+const Mahsulot=lazy(()=> import("./pages/mahsulot/Mahsulot.tsx"));
 const Home = lazy(() => import("./pages/home"));
 const Login = lazy(() => import("./pages/login"));
 const Register = lazy(() => import("./pages/register"));
@@ -18,6 +19,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/status" element={<AuthStatus />} />
         <Route path="/Admin" element={<Admin />} />
+        <Route path="/mahsulot" element={<Mahsulot />} />
       </Routes>
       <Footer />
     </>

@@ -8,6 +8,7 @@ const Home = lazy(() => import("./pages/home"));
 const Login = lazy(() => import("./pages/login"));
 const Register = lazy(() => import("./pages/register"));
 const Admin = lazy(() => import("./pages/admin/Admin.tsx"));
+const Basket = lazy(() => import("./pages/basket/Basket.tsx"))
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/status" element={<AuthStatus />} />
         <Route path="/Admin" element={<Admin />} />
+        <Route path="/basket" element={<Basket />} />
       </Routes>
       <Footer />
     </>

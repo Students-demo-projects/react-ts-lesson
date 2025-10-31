@@ -6,10 +6,13 @@ function Header() {
     <nav className="flex items-center px-16 py-5 bg-blue-500 text-white gap-5">
       <h1>Logo</h1>
       <NavLink to={"/"}>Home</NavLink>
-      <NavLink to={"/login"}>Login</NavLink>
+      <NavLink to={"/login"}>Loginn</NavLink>
       <NavLink to={"/status"}>Auth Status</NavLink>
       <NavLink to={"/Admin"}>Admin</NavLink>
       <NavLink to={"/basket"}>Basket</NavLink>
+      <NavLink to={"/salom"}>Salom</NavLink>
+
+
     </nav>
   )
 }
